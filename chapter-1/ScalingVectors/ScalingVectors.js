@@ -86,4 +86,4 @@ class Vector {
     vectors.forEach((vector) => vector.reset()); // Reset each vector to its original value
     scaleSlider.value(1); // Reset slider to 1 as well
   }
-  
+      
