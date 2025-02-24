@@ -1,4 +1,4 @@
-// 🌫️ FadingMist: A Beautiful Mist Simulation
+// FadingMist: A Beautiful Mist Simulation
 
 let mist;
 
@@ -13,7 +13,7 @@ function draw() {
   mist.run();
 }
 
-// 🌫️ Particle Class (Defines a single mist particle)
+//Particle Class (Defines a single mist particle)
 class Particle {
   constructor(x, y) {
     this.position = createVector(x, y);
@@ -40,7 +40,7 @@ class Particle {
   }
 }
 
-// 🌫️ Particle System (Manages multiple particles)
+//Particle System (Manages multiple particles)
 class ParticleSystem {
   constructor(x, y) {
     this.origin = createVector(x, y);
